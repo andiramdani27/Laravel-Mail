@@ -32,7 +32,7 @@ class Testemail extends Mailable
     public function build()
     {
         return $this->from('dari@admin.com')
-                    ->subject('Belajar SMTP GMAIL - Laravel 5.7')
+                    ->subject('Belajar SMTP Mailtrap - Laravel 5.7')
                     ->view('email.index');
     }
 }
